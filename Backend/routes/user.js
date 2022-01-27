@@ -1,5 +1,6 @@
 const {verifyToken, verifyTokenAndAuthorization} = require('./verifyToken');
 const router = require('express').Router();
+const User = require('../models/User')
 
 // router.post('/hi', (req,res) => {
 //     res.status(200).json({"Msg" : "HI"})
